@@ -1,0 +1,21 @@
+MowItNow
+========
+
+Compile the project with maven.
+
+
+Test
+========
+
+- Launch the test src/test/java/com/mowitnow/behaviour/XebiaTest
+
+This a behaviour test driven by jBehave.
+The test will run the scenario described in srt/test/resources/com/mowitnow/behaviour/xebia_test.story parsed by src/test/java/com/mowitnow/behaviour/XebiaSteps
+
+Webapp
+========
+
+An HTML5/canvas/websockets UI.
+
+- run : "mvn tomcat7:run" at the root of the project
+- Open your web browser at http://localhost:8080
